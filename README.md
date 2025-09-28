@@ -1,2 +1,12 @@
-# CS-Primer-Operating-Systems
-CS Primer - Operating Systems
+# CS Primer - Operating Systems
+
+The goal of this course is to help you understand the most important piece of software that almost every program interacts with: the operating system.
+
+Each module will cover both conceptual foundations and practical considerations for software engineers. You will write short programs and ask yourself "How is the operating system making this happen? How does my conceptual understanding explain the behavior I'm seeing?" You should leave each one with a better overall understanding, and discover new ways to make your programs more efficient and secure
+
+At the core of this course are the sequences of problems for each topic. You should aim to solve each problem yourself, using the worked solutions and supplementary explainers as needed. While no textbook is strictly necessary for this course, we highly recommend [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/) ("OSTEP") as a supplement, and suggest specific chapter to read in conjunction with each set of problems. We also suggest further resources from Computer Systems: A Programmer's Perspective for those who already have a copy, as well as other relevant resources throughout.
+
+Most of the topics we discuss will be broadly applicable to all operating systems, but where we need to get concrete we will focus on the Unix family of operating systems, and ultimately through the lens of GNU/Linux operating system, which we encourage you to run, if needed, as a virtual machine.
+We chose this operating system because of its popularity, and the availability of its entire source code. This isn’t a "Linux Course", and most problems could be done on other operating systems, with some specific exceptions like those relating to containers (a Linux-specific concept). The same general principles tend to apply although specific interfaces can vary dramatically. No knowledge of Linux is required to take this course
+
+Important note: we strongly recommend that you complete most of [Computer Systems](https://csprimer.com/courses/systems/) or an equivalent course before this one. Many topics such as basic computer architecture and C familiarity are taken as assumed knowledge. You are of course welcome to try this course and cherry pick topics from Computer Systems to fill in gaps as you go. A number of problems will be most straightforward to complete in a compiled "systems" language such as C, C++ or Rust, although you are welcome to attempt them in any language.
